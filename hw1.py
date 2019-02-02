@@ -46,6 +46,7 @@ def hello_world():
     
 def datatypes():
     pass
+    print(1)
     
 def ifelse():
     pass
