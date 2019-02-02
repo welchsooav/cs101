@@ -39,6 +39,17 @@ reference로 wiki doc을 꼭 보기를 바람. (https://wikidocs.net/book/1)
 - 오묙 만들기 
 - 피보나치 수열 함수 
 - 하노이의 탑 - viet
+
+
+- github 확인하기
+0. 폴더 안에 빈 공간에서 마우스 오른쪽 버튼 클릭 후 git bash
+1. git add .
+2. git commit -m "new ver."
+3. git push -u origin master
+
+- 결과값 확인하기
+0. 0 반복
+1. python hw1.py
 """
 
 #한줄주석
@@ -114,7 +125,7 @@ if __name__ == '__main__':
     cnt = 0
     for i in range(10, 100):
         for j in range(10, 100):
-            if i*j == multiply(str(i) * str(j)):
+            if i*j == multiply(str(i), str(j)):
                 mul_cnt += 1
             cnt += 1
     
